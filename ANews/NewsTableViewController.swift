@@ -24,7 +24,7 @@ class NewsTableViewController: UITableViewController {
         bannerView = GADBannerView(adSize: GADAdSizeBanner)
 
         bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        //ca-app-pub-3746960655006525/9367400427
+        
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
 
